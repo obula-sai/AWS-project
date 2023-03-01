@@ -12,11 +12,8 @@
 
 {
   "Version": "2012-10-17",
-  
   "Statement": [
-  
     {
-    
       "Sid": "Stmt1677670893301",
       
       "Action": "s3:*",
@@ -27,14 +24,10 @@
       
         "arn:aws:s3:::sai-project",
         
-        "arn:aws:s3:::sai-project/*"
-        
-      ]
-      
-    }
-    
-  ]
-  
+        "arn:aws:s3:::sai-project/*" 
+      ]  
+    }  
+  ]  
 }
 
 
