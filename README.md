@@ -12,18 +12,32 @@
 
 {
   "Version": "2012-10-17",
+  
   "Statement": [
+  
     {
+    
       "Sid": "Stmt1677670893301",
+      
       "Action": "s3:*",
+      
       "Effect": "Allow",
+      
       "Resource": [
+      
         "arn:aws:s3:::sai-project",
+        
         "arn:aws:s3:::sai-project/*"
+        
       ]
+      
     }
+    
   ]
+  
 }
+
+
 4. Created a mysql instance using RDS service
 
 
